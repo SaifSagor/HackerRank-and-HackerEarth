@@ -9,26 +9,22 @@ using namespace std;
 int main()
 {   
     string s;
-    int i, count = 1, max = 1;
+    int i, count = 1, ans = 0;
 
     getline(cin , s);
 
-    for(i=1; i < s.length() ; i++){
-        if(s[i] != s[i-1]){
+    for(i=0; i < s.length()-1 ; i++){
+        if(s[i] != s[i+1]){
             count++;
         }
-        else{
-            if(count > max){
-                max = count;
-                count = 1;
-            }    
-        }  
+        if (s[i] == s[i + 1])
+        {
+            ans = max(ans, count);
+            count = 1;
+        }
     }
 
-    if (count > max){
-        max = count;
-    }
-    cout << max << endl;
+    cout << max(count, ans) << endl;
     
     return 0;
 }
