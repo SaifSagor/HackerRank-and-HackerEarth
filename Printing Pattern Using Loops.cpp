@@ -1,4 +1,5 @@
-							Printing Pattern Using Loops
+/*
+					Printing Pattern Using Loops
 
 Print a pattern of numbers from 1 to n as shown below. Each of the numbers is separated by a single space.
 
@@ -59,6 +60,7 @@ Sample Output 2
 7 6 6 6 6 6 6 6 6 6 6 6 7 
 7 7 7 7 7 7 7 7 7 7 7 7 7 
 
+*/
 
 // CODE
 
