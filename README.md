@@ -1,2 +1,2 @@
 # HackerRank and HackerEarth
-Solved Problems of HackerRank and HackerEarth Online Judge
+Solved Problems from HackerRank and HackerEarth Online Judge
